@@ -26,10 +26,13 @@ pip install -r requirements.txt
 2. Ask questions!
     
     ```bash
-    python chat/chat.py --query "You want to block certain IP addresses from establishing a connection to your Snowflake account. Which mechanism would you use?"
+    python chat/retrieve.py \
+     --query "You want to block certain IP addresses from establishing a connection to your Snowflake account.
+            Which mechanism would you use?"
 
     
-        You would use a network policy to block certain IP addresses from establishing a connection to your Snowflake account.
+    You can use a network policy to block certain IP addresses from connecting to your Snowflake account.
+    This can be done by creating or editing a network policy and adding the IP addresses to the blocked IP address list.
 
     Sources:
 

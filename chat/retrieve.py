@@ -15,7 +15,7 @@ def qa(query: str) -> None:
     retriever = vectordb.as_retriever()
 
     qa_chain = RetrievalQA.from_chain_type(
-        llm=OpenAI(),
+        llm=OpenAI(temperature=0.0),
         chain_type="stuff",
         retriever=retriever,
         return_source_documents=True,
