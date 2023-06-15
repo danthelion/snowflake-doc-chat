@@ -1,0 +1,8 @@
+openai
+langchain
+lxml
+nest_asyncio
+bs4
+tiktoken
+chromadb
+ruff
